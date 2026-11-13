@@ -5,6 +5,8 @@
   Open hardware by <a href="https://github.com/ElectroIoT">ElectroIoT</a> · successor to USBasp v4 / v5
 </p>
 
+<p align="center"><a href="https://electroiot.github.io/USBasp-V6-TypeC/"><b>🌐 Open the live design pages →</b></a></p>
+
 <p align="center">
   <img alt="status" src="https://img.shields.io/badge/status-design%20stage-orange">
   <img alt="usb-c" src="https://img.shields.io/badge/USB-Type--C-4895ef">
@@ -50,12 +52,12 @@ The design is documented as four interactive pages: search the BOM, tick parts a
 
 | Page | What's in it |
 |---|---|
-| [**BOM**](docs/bom.html) | 45 parts, about **USD 3.94** per board (first LCSC price tier), LCSC numbers, "copy all C-numbers" button |
-| [**Wiring by section**](docs/wiring-by-section.html) | connection map, ATmega8A pin table, every pin-to-net per part |
-| [**Schematic by section**](docs/schematic-sections.html) | three sheets, step-by-step build list, pin guides for the ATmega8A, level shifters and USB-C |
-| [**PCB floorplan**](docs/pcb-floorplan.html) | 84 × 32 mm board, block boxes, X / Y position of every part |
+| [**BOM**](https://electroiot.github.io/USBasp-V6-TypeC/bom.html) | 45 parts, about **USD 3.94** per board (first LCSC price tier), LCSC numbers, "copy all C-numbers" button |
+| [**Wiring by section**](https://electroiot.github.io/USBasp-V6-TypeC/wiring-by-section.html) | connection map, ATmega8A pin table, every pin-to-net per part |
+| [**Schematic by section**](https://electroiot.github.io/USBasp-V6-TypeC/schematic-sections.html) | three sheets, step-by-step build list, pin guides for the ATmega8A, level shifters and USB-C |
+| [**PCB floorplan**](https://electroiot.github.io/USBasp-V6-TypeC/pcb-floorplan.html) | 84 × 32 mm board, block boxes, X / Y position of every part |
 
-Download the repo (or open the files locally) to use the pages. The BOM is also available as [CSV](hardware/bom/usbasp-v6-bom.csv) and as a [Markdown table](hardware/bom/bom-table.md).
+The pages are live on GitHub Pages at **https://electroiot.github.io/USBasp-V6-TypeC/** (they also work offline from the `docs/` folder). The BOM is also available as [CSV](hardware/bom/usbasp-v6-bom.csv) and as a [Markdown table](hardware/bom/bom-table.md).
 
 ## How it works
 
