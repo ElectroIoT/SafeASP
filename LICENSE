@@ -1,0 +1,11 @@
+USBasp V6 (USB-C) - hardware design, documentation and generator scripts
+Copyright (c) 2026 ElectroIoT
+
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+You may share and adapt this work, also commercially, as long as you give appropriate credit and
+distribute your contributions under the same license.
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+The USBasp firmware is NOT part of this repository. It is (c) Thomas Fischl, https://www.fischl.de/usbasp/,
+licensed under the GNU GPL version 2, and is built on V-USB by OBJECTIVE DEVELOPMENT GmbH.
