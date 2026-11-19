@@ -1,4 +1,4 @@
-"""USBasp V6 (USB-C) design data: sections, parts, pin-to-net data, BOM info.
+"""SafeASP (USBasp V6) (USB-C) design data: sections, parts, pin-to-net data, BOM info.
 All connections are PLANNED (no EasyEDA schematic exists yet). Pin numbers of U1, U4 and U5 were read from the
 datasheets on 2026-11-13; the firmware pin use was read from the USBasp 2011-05-28 source (usbasp.h, isp.h, usbconfig.h, main.c)."""
 

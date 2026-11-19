@@ -1,11 +1,13 @@
-<h1 align="center">USBasp V6 · USB-C AVR Programmer</h1>
+<h1 align="center">SafeASP · USB-C AVR Programmer</h1>
+
+<p align="center"><i>USBasp V6</i></p>
 
 <p align="center">
   <b>The classic USBasp, rebuilt for today:</b> USB-C, safe 1.8–5.5 V targets, protected target power, 10-pin <i>and</i> 6-pin ISP.<br>
   Open hardware by <a href="https://github.com/ElectroIoT">ElectroIoT</a> · successor to USBasp v4 / v5
 </p>
 
-<p align="center"><a href="https://electroiot.github.io/USBasp-V6-TypeC/"><b>🌐 Open the live design pages →</b></a></p>
+<p align="center"><a href="https://electroiot.github.io/SafeASP/"><b>🌐 Open the live design pages →</b></a></p>
 
 <p align="center">
   <img alt="status" src="https://img.shields.io/badge/status-design%20stage-orange">
@@ -16,17 +18,17 @@
   <img alt="license" src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey">
 </p>
 
-<p align="center"><img src="docs/images/pcb-floorplan.svg" alt="USBasp V6 PCB floor plan, 84 x 32 mm" width="900"></p>
+<p align="center"><img src="docs/images/pcb-floorplan.svg" alt="SafeASP PCB floor plan, 84 x 32 mm" width="900"></p>
 
 > **Status (2026-11-19): PCB routed, DRC clean.** Schematic and 2-layer PCB are drawn in EasyEDA: 84 × 32 mm, all nets routed, 0.5 mm power tracks, GND pours on both layers, DRC 0 errors. **Not built or tested yet.** Next: Gerbers and the first boards.
 
-<p align="center"><img src="docs/images/pcb-routed.png" alt="USBasp V6 routed PCB in EasyEDA" width="900"></p>
+<p align="center"><img src="docs/images/pcb-routed.png" alt="SafeASP routed PCB in EasyEDA" width="900"></p>
 
 ---
 
-## Why V6?
+## Why SafeASP (V6)?
 
-| | v4 (2018) | v5 (2019) | **V6 (this repo)** |
+| | v4 (2018) | v5 (2019) | **SafeASP / V6 (this repo)** |
 |---|---|---|---|
 | USB connector | USB-B | micro-USB | **USB-C** (works with C-to-C cables) |
 | MCU / firmware | ATmega8 + USBasp | ATmega8 + USBasp | ATmega8A-AU + **the same USBasp firmware, unchanged** |
@@ -54,12 +56,12 @@ The design is documented as four interactive pages: search the BOM, tick parts a
 
 | Page | What's in it |
 |---|---|
-| [**BOM**](https://electroiot.github.io/USBasp-V6-TypeC/bom.html) | 45 parts, about **USD 3.94** per board (first LCSC price tier), LCSC numbers, "copy all C-numbers" button |
-| [**Wiring by section**](https://electroiot.github.io/USBasp-V6-TypeC/wiring-by-section.html) | connection map, ATmega8A pin table, every pin-to-net per part |
-| [**Schematic by section**](https://electroiot.github.io/USBasp-V6-TypeC/schematic-sections.html) | three sheets, step-by-step build list, pin guides for the ATmega8A, level shifters and USB-C |
-| [**PCB floorplan**](https://electroiot.github.io/USBasp-V6-TypeC/pcb-floorplan.html) | 84 × 32 mm board, block boxes, X / Y position of every part |
+| [**BOM**](https://electroiot.github.io/SafeASP/bom.html) | 45 parts, about **USD 3.94** per board (first LCSC price tier), LCSC numbers, "copy all C-numbers" button |
+| [**Wiring by section**](https://electroiot.github.io/SafeASP/wiring-by-section.html) | connection map, ATmega8A pin table, every pin-to-net per part |
+| [**Schematic by section**](https://electroiot.github.io/SafeASP/schematic-sections.html) | three sheets, step-by-step build list, pin guides for the ATmega8A, level shifters and USB-C |
+| [**PCB floorplan**](https://electroiot.github.io/SafeASP/pcb-floorplan.html) | 84 × 32 mm board, block boxes, X / Y position of every part |
 
-The pages are live on GitHub Pages at **https://electroiot.github.io/USBasp-V6-TypeC/** (they also work offline from the `docs/` folder). The BOM is also available as [CSV](hardware/bom/usbasp-v6-bom.csv) and as a [Markdown table](hardware/bom/bom-table.md).
+The pages are live on GitHub Pages at **https://electroiot.github.io/SafeASP/** (they also work offline from the `docs/` folder). The BOM is also available as [CSV](hardware/bom/usbasp-v6-bom.csv) and as a [Markdown table](hardware/bom/bom-table.md).
 
 ## How it works
 
@@ -126,4 +128,4 @@ PLAN.md          design decisions, checks done, open items
 ## Credits and license
 
 - USBasp firmware and the original circuit: © Thomas Fischl, [fischl.de/usbasp](https://www.fischl.de/usbasp/), GPL-2.0. It is built on V-USB by OBJECTIVE DEVELOPMENT.
-- V6 hardware design, docs and generator: ElectroIoT, licensed **CC BY-SA 4.0** (see [LICENSE](LICENSE)).
+- SafeASP (USBasp V6) hardware design, docs and generator: ElectroIoT, licensed **CC BY-SA 4.0** (see [LICENSE](LICENSE)).

@@ -1,4 +1,4 @@
-"""USBasp V6 schematic sheets drawn as simplified SVG symbols (planning drawings, not an EasyEDA project).
+"""SafeASP (USBasp V6) schematic sheets drawn as simplified SVG symbols (planning drawings, not an EasyEDA project).
 Every reference designator and net name matches tools/data.py. Run via gen_docs.py."""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

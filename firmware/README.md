@@ -1,6 +1,6 @@
 # Firmware
 
-USBasp V6 runs the **official USBasp firmware by Thomas Fischl (version 2011-05-28), unchanged**. This repo does not copy it. Download it from the author:
+SafeASP (USBasp V6) runs the **official USBasp firmware by Thomas Fischl (version 2011-05-28), unchanged**. This repo does not copy it. Download it from the author:
 
 - https://www.fischl.de/usbasp/ → `usbasp.2011-05-28.tar.gz`
 - Ready-made hex for this board: `bin/firmware/usbasp.atmega8.2011-05-28.hex`

@@ -1,4 +1,4 @@
-"""Footprint-style pin guides for USBasp V6: U1 ATmega8A TQFP-32 (top view, pad numbers from the Microchip datasheet figure 1-1)
+"""Footprint-style pin guides for SafeASP (USBasp V6): U1 ATmega8A TQFP-32 (top view, pad numbers from the Microchip datasheet figure 1-1)
 and pin tables for U4 74LVC8T245PW, U5 74LVC1T45GW and J1 USB-C. Used by gen_docs.py (schematic page)."""
 import html
 import data as D

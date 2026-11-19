@@ -1,4 +1,4 @@
-# USBasp V6: design plan
+# SafeASP (USBasp V6): design plan
 
 Successor to USBasp v4 (USB-B, 2018) and v5 (micro-USB, 2019). Goal: keep the cheap, well-known ATmega8 + USBasp-firmware programmer, but make it USB-C and safe for 3.3 V and 1.8 V targets.
 

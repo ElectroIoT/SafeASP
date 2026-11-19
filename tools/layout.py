@@ -1,4 +1,4 @@
-"""USBasp V6 PCB placement (planning data). Board 84 x 32 mm, origin lower-left, y up, mm.
+"""SafeASP (USBasp V6) PCB placement (planning data). Board 84 x 32 mm, origin lower-left, y up, mm.
 ref -> (x_center, y_center, width, height, rotation). Sizes are estimates, NOT EasyEDA footprints.
 Every block has a fixed rectangle (its top-silkscreen box); parts must lie inside their own rectangle.
 Signal flow left to right: USB-C -> V-USB -> ATmega8A -> level shifter -> ISP headers on the right edge."""
