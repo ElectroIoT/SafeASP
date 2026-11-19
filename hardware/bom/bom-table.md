@@ -25,6 +25,6 @@
 | U4 | 1 | 74LVC8T245PW 8-bit dual-supply transceiver, TSSOP-24 | [C458788](https://www.lcsc.com/product-detail/C458788.html) | 74LVC8T245PW | 0.3952 (10+) |
 | U5 | 1 | 74LVC1T45GW 1-bit dual-supply transceiver (MISO back), SC-88 | [C478004](https://www.lcsc.com/product-detail/C478004.html) | 74LVC1T45GW,125 | 0.1864 (5+) |
 | R11, R12, R13 | 3 | 100 k 1206 | [C17900](https://www.lcsc.com/product-detail/C17900.html) | 1206W4F1003T5E | 0.0065 (100+) |
-| J2 | 1 | 2x5 box header: standard AVR 10-pin ISP | [C5368783](https://www.lcsc.com/product-detail/C5368783.html) | 2.54MM-10P ZZ | 0.0365 (10+) |
+| J2 | 1 | 2x5 box header: standard AVR 10-pin ISP | [C5665](https://www.lcsc.com/product-detail/C5665.html) | 2.54-2*5P | 0.1046 (5+) |
 
-**45 pieces, about USD 3.94 per board** (first LCSC price tier, PCB not included). Plus 2 jumper caps (2.54 mm) for JP1 and JP2.
+**45 pieces, about USD 4.01 per board** (first LCSC price tier, PCB not included). Plus 2 jumper caps (2.54 mm) for JP1 and JP2.

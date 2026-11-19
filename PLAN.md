@@ -28,7 +28,7 @@ Successor to USBasp v4 (USB-B, 2018) and v5 (micro-USB, 2019). Goal: keep the ch
 
 1. Draw the schematic and PCB in EasyEDA from the docs pages; check every symbol and footprint (TQFP-32, TSSOP-24, SC-88, 3225 crystal pad order, box-header key).
 2. U4 74LVC8T245PW is only in other-supplier stock at LCSC (3-5 day lead time). The TI SN74LVC8T245PWR (C27643) has the same pinout.
-3. Check that C5368783 is the shrouded (keyed) 2x5 box header.
+3. J2 = C5665 (BOOMELE 2x5 IDC box header). The first pick, C5368783, turned out to be a 1x10 2.5 mm XH-style header (found in the EasyEDA footprint 2026-11-19).
 4. Two 2.54 mm jumper caps (JP1, JP2) are not in the LCSC BOM.
 5. Build and test: C-to-C cable, 5 V and 3.3 V targets, self-powered target with JP1 off, slow SCK, Arduino IDE "Burn Bootloader".
 6. TPI (ATtiny4/5/9/10) through the separate MOSI / MISO buffers: untested.

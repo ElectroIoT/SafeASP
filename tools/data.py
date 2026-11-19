@@ -44,7 +44,7 @@ INFO = {
  "C965798": ("XL-1608SURC-04", "Xinglight", 270700, 0.0057, "100+", "LISTING (red, 0603)"),
  "C2986059": ("19-217/GHC-YR1S2/6T", "Everlight", 718400, 0.018, "50+", "LISTING (green, 0603)"),
  "C965803": ("XL-1608UYC-04", "Xinglight", 107300, 0.0081, "100+", "LISTING 2026-11-13 (yellow, 0603)"),
- "C5368783": ("2.54MM-10P ZZ", "SHOU HAN", 3820, 0.0365, "10+", "LISTING 2026-11-13; 2x5 box header, check it is the shrouded (keyed) straight type"),
+ "C5665": ("2.54-2*5P", "BOOMELE", 110705, 0.1046, "5+", "LISTING 2026-11-19; IDC box header 2x5, through hole (replaces C5368783, which is a 1x10 2.5 mm XH-style header)"),
  "C65114": ("2.54-2*3P", "BOOMELE", 44450, 0.0457, "10+", "LISTING 2026-11-13; 2x3 pin header"),
  "C492402": ("PZ254V-11-03P", "XFCN", "not read", 0.02, "20+", "LISTING 2026-11-05 (1x3 header)"),
  "C492401": ("PZ254V-11-02P", "XFCN", 777200, 0.0184, "50+", "LISTING 2026-11-13 (1x2 header)"),
@@ -101,7 +101,7 @@ PARTS = [
  ("R12", "shift", "100 k 1206, SCK_M pull-down", "C17900", 1, "1=SCK_M,2=GND"),
  ("R13", "shift", "100 k 1206, RST_M pull-down", "C17900", 1, "1=RST_M,2=GND"),
  # ---- ISP headers
- ("J2", "isp", "2x5 box header: standard AVR 10-pin ISP", "C5368783", 1, "1 MOSI=MOSI_T,2 VCC=VTGT,3 NC=-,4 GND=GND,5 RST=RST_T,6 GND=GND,7 SCK=SCK_T,8 GND=GND,9 MISO=MISO_T,10 GND=GND"),
+ ("J2", "isp", "2x5 box header: standard AVR 10-pin ISP", "C5665", 1, "1 MOSI=MOSI_T,2 VCC=VTGT,3 NC=-,4 GND=GND,5 RST=RST_T,6 GND=GND,7 SCK=SCK_T,8 GND=GND,9 MISO=MISO_T,10 GND=GND"),
  ("J3", "isp", "2x3 header: standard AVR 6-pin ISP", "C65114", 1, "1 MISO=MISO_T,2 VCC=VTGT,3 SCK=SCK_T,4 MOSI=MOSI_T,5 RST=RST_T,6 GND=GND"),
 ]
 REF_SEC = {p[0]: p[1] for p in PARTS}
