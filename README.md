@@ -130,6 +130,13 @@ PLAN.md          design decisions, checks done, open items
 - [ ] First boards built and tested (3.3 V and 5 V targets, C-to-C cable)
 - [ ] Shared project page for ordering the PCB
 
+## Community
+
+SafeASP is also shared on:
+- **PCBWay Community**: entered in the PCBWay 9th Project Design Contest (Open Theme).
+- **OSHWLab**: open-source EasyEDA project (schematic + PCB), https://oshwlab.com/manoranjan2050/project_ethdomkc
+- **Elecrow** Share Projects.
+
 ## Older versions
 
 - **v5 (micro-USB, 2019)** and **v4 (USB-B, 2018)**: Gerber files are on the PCBWay shared-project pages (*USBasp Programmer v5 Updated* and *USBasp Updated v4*).
