@@ -18,7 +18,9 @@
 
 <p align="center"><img src="docs/images/pcb-floorplan.svg" alt="USBasp V6 PCB floor plan, 84 x 32 mm" width="900"></p>
 
-> **Status (2026-11-13): design stage.** The circuit, BOM (with LCSC part numbers) and PCB floor plan are done and checked by script. The EasyEDA schematic and PCB are the next step. **Nothing has been built or tested yet.** Watch or star this repo to follow it.
+> **Status (2026-11-19): PCB routed, DRC clean.** Schematic and 2-layer PCB are drawn in EasyEDA: 84 × 32 mm, all nets routed, 0.5 mm power tracks, GND pours on both layers, DRC 0 errors. **Not built or tested yet.** Next: Gerbers and the first boards.
+
+<p align="center"><img src="docs/images/pcb-routed.png" alt="USBasp V6 routed PCB in EasyEDA" width="900"></p>
 
 ---
 
@@ -111,7 +113,7 @@ PLAN.md          design decisions, checks done, open items
 ## Roadmap
 
 - [x] Circuit, netlist, BOM with LCSC numbers, PCB floor plan (2026-11-13)
-- [ ] EasyEDA schematic and PCB
+- [x] EasyEDA schematic and PCB, routed, DRC clean (2026-11-19)
 - [ ] Gerbers, BOM and pick-and-place files
 - [ ] First boards built and tested (3.3 V and 5 V targets, C-to-C cable)
 - [ ] Shared project page for ordering the PCB
