@@ -18,11 +18,21 @@
   <img alt="license" src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey">
 </p>
 
-<p align="center"><img src="docs/images/pcb-floorplan.svg" alt="SafeASP PCB floor plan, 84 x 32 mm" width="900"></p>
+<p align="center"><img src="docs/images/3d-angle.png" alt="SafeASP 3D render, angled view" width="900"></p>
 
 > **Status (2026-11-19): PCB routed, DRC clean.** Schematic and 2-layer PCB are drawn in EasyEDA: 84 × 32 mm, all nets routed, 0.5 mm power tracks, GND pours on both layers, DRC 0 errors. **Not built or tested yet.** Next: Gerbers and the first boards.
 
-<p align="center"><img src="docs/images/pcb-routed.png" alt="SafeASP routed PCB in EasyEDA" width="900"></p>
+## Gallery
+
+| Top (3D) | Back (3D) |
+|:---:|:---:|
+| <img src="docs/images/3d-top.png" alt="SafeASP 3D top view" width="440"> | <img src="docs/images/3d-back.png" alt="SafeASP 3D back view" width="440"> |
+| **Angled (3D)** | **Back, low angle (3D)** |
+| <img src="docs/images/3d-angle.png" alt="SafeASP 3D angled view" width="440"> | <img src="docs/images/3d-back-angle.png" alt="SafeASP 3D underside at a low angle" width="440"> |
+| **PCB top layer (2D)** | **PCB bottom layer (2D)** |
+| <img src="docs/images/pcb-2d-top.png" alt="SafeASP PCB top layer" width="440"> | <img src="docs/images/pcb-2d-bottom.png" alt="SafeASP PCB bottom layer" width="440"> |
+
+Renders from the EasyEDA 3D viewer, 2-layer board 84 × 32 mm. The planning floor plan is in [docs/images/pcb-floorplan.svg](docs/images/pcb-floorplan.svg).
 
 ---
 
